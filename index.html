@@ -3,23 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>杨汝嘉的个人主页</title>
+    <title>Rujiayang's CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            background-color: #2980b9;
+            color: white;
+            padding: 10px;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li {
+            width: 45%;
+            margin-right: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>杨汝嘉的个人主页</h1>
-        <p>欢迎访问我的个人网站！</p>
+        <h1>Rujiayang</h1>
+        <p>Student | Research Intern | Software Developer</p>
     </header>
-    <section>
-        <h2>关于我</h2>
-        <p>这里是我的简短介绍...</p>
-    </section>
-    <section>
-        <h2>联系方式</h2>
-        <p>Email: your.email@example.com</p>
-    </section>
-    <footer>
-        <p>© 2024 杨汝嘉</p>
-    </footer>
+
+    <div class="container">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I am a third-year student at the Institute for Interdisciplinary Information Sciences (Yao Class) at Tsinghua University. I am passionate about network topologies, imitation learning, and AI research, and I am currently working on research projects related to perception, action, and learning in embodied AI systems.</p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Science in Computer Science</strong> | Tsinghua University | Expected Graduation: 2026</li>
+                <li>Relevant coursework: Advanced Algorithms, Machine Learning, Network Topologies, AI, Robotics</li>
+            </ul>
+        </section>
+
+        <section class="research">
+            <h2>Research Experience</h2>
+            <ul>
+                <li><strong>Research Intern</strong> | Professor Dinesh Jayaraman's Lab | 2024 – Present</li>
+                <li>Conducting research on Vision-Language Models (VLM) for embodied AI, including in-context learning and actor-critic models.</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong> Python, C++, JavaScript, HTML/CSS</li>
+                <li><strong>Tools:</strong> Git, Docker, TensorFlow, PyTorch, OpenCV</li>
+                <li><strong>Languages:</strong> English (Fluent), Chinese (Native)</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Point Cloud Data Processing</strong>: Developing code to handle batch processing of time series data with point cloud coordinates.</li>
+                <li><strong>2D-3D Topology Research</strong>: Studying different topologies (2D-Mesh, 3D-Torus) and optimizing routing algorithms for high-performance networks.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Contact: your.email@example.com | LinkedIn: [Your LinkedIn]</p>
+        </footer>
+    </div>
 </body>
 </html>
